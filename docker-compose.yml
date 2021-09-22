@@ -1,0 +1,6 @@
+services:
+  static-web:
+    build: .
+    image: ghcr.io/sahussawud/static-web:dev
+    ports:
+      - "8080:80"
